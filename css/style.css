@@ -29,35 +29,125 @@
 
 .container-1 {
     padding: 2%;
-    background-color: blue;
+    background-color: rgb(3, 3, 134);
 }
 
 .item-1 {
     border: 2px dashed black;
     padding: 10%;
     margin: 1.5% 25%;
-    background-color: rgb(248, 147, 164);
+    background-color: rgb(250, 131, 151);
 }
 
 .container-2 {
     padding: 2%;
     background-color: white;
-    font-size: 0;
+    /*font-size: 0;*/
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;*/
 }
 
 .item-2-1 {
     border: 2px dashed black;
     padding: 10%;
-    background-color: rgb(93, 164, 245);
+    margin: 1.5% 0 1.5% 20%;
+    background-color: rgb(44, 138, 245);
     display: inline-block;
+    flex: 3;
 }
 
 .item-2-2 {
     border: 2px dashed black;
     padding: 10%;
+    margin: 1.5% 20% 1.5% 0;
     background-color: pink;
     display: inline-block;
+    flex: 1;
+}
+
+.container-3 {
+    padding: 2%;
+    background-color: lightgray;
+    /*font-size: 0;*/
+    display: flex;
+    /*align-items: center;*/
+}
+
+.item-3-1 {
+    border: 2px dashed black;
+    padding: 10%;
+    margin: 1.5% 0 1.5% 20%;
+    background-color: pink;
+    display: inline-block;
+    flex: 1;
+}
+
+.item-3-2 {
+    border: 2px dashed black;
+    padding: 10%;
+    margin: 1.5% 20% 1.5% 0;
+    background-color: rgb(44, 138, 245);
+    display: inline-block;
+    flex: 3;
+}
+
+.container-4 {
+    padding: 2%;
+    background-color: white;
+    /*font-size: 0;*/
+    display: flex;
+    /*align-items: center;*/
+}
+
+.item-4-1 {
+    border: 2px dashed black;
+    padding: 10%;
+    margin: 1.5% 0 1.5% 20%;
+    background-color: rgb(44, 138, 245);
+    display: inline-block;
+    flex: 3;
+}
+
+.item-4-2 {
+    border: 2px dashed black;
+    padding: 10%;
+    margin: 1.5% 20% 1.5% 0;
+    background-color: pink;
+    display: inline-block;
+    flex: 1;
+}
+
+.container-5 {
+    padding: 2%;
+    background-color: lightgray;
+}
+
+.item-5 {
+    border: 2px dashed black;
+    padding: 20%;
+    margin: 1.5% 20%;
+    background-color: green;
+}
+
+.container-6 {
+    padding: 0%;
+    background-color: rgb(29, 25, 25);
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-6-1 {
+    border: 2px dashed black;
+    padding: 15%;
+    margin: 1% 0 2% 20%;
+    background-color: rgb(245, 88, 135);
+}
+
+.item-6-2 {
+    border: 2px dashed white;
+    padding: 10%;
+    margin: 1% 0 2% 0;
+    background-color: rgb(4, 122, 103);
 }
